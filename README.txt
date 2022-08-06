@@ -1,6 +1,8 @@
+Francesco Pettazzoni
+
 In order to run the application you have to download the code, open Musement.sln and run the CLIApplication. The class with the Main method is Default.cs.
 
-I have never designed an API, so I propose what I thought could be done in order to save the information retrieved from the application I designed (which retrieves the forecast weather of a city) in the TUI Musement's API.
+For the second point, I have never designed an API, so I propose what I thought could be done in order to save the information retrieved from the application I designed (which retrieves the forecast weather of a city) in the TUI Musement's API.
 As we used the GetAsync method to retrieve information from the two existing endpoints GET /api/v3/cities and GET /api/v3/cities{id}, similarly we could use the POST method to create two new resources and to send to TUI Musement's API the information retrieved by the GetInfoWeather method.
 
 A POST request in fact creates a resource, and since in our case this resource doesn't initially exist then it seems to me the suitable method.
